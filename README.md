@@ -217,7 +217,17 @@ vagrant@ceph-admin:~/test-cluster$ ceph quorum_status --format json-pretty
 
 ## Install Ceph Object Gateway
 
-TODO
+To be able to install FastCGI the multiverse repository must be enabled in Ubuntu
+Remove the commented rows where multiverse is specified in /etc/apt/sources.list. You might ignore the backport lines. Or if you are lazy just run this command.
+
+```sudo sed -i'' 's/\# \(.*trusty.\{0,10\}multiverse\)/\1/g' /etc/apt/sources.list```
+
+Install Apache and FastCGI
+
+
+```sudo apt-get install apache2 libapache2-mod-fastcgi```
+
+
 
 ## Play around!
 
