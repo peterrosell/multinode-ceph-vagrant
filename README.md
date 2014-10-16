@@ -10,6 +10,7 @@ It follows the following Ceph user guides:
 * [Ceph FS quick start](http://ceph.com/docs/master/start/quick-cephfs/)
 * [Install Ceph object gateway](http://ceph.com/docs/master/install/install-ceph-gateway/)
 * [Configuring Ceph object gateway](http://ceph.com/docs/master/radosgw/config/)
+* [Cephfilesystem](http://ceph.com/category/ceph-filesystem/)
 
 Note that after many commands, you may see something like:
 
