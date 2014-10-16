@@ -503,6 +503,13 @@ scp ceph-client:/cephfs/testdata/libxapian.so.22 /tmp
 diff /tmp/libxapian.so.22 /usr/lib/libxapian.so.22
 ```
 
+Start up the second server again.
+
+**Note!** This command shall be run on the host machine that runs VirtualBox.
+```
+vagrant up ceph-server-2
+```
+
 ### Store a blob object
 
 TODO
