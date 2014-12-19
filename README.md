@@ -38,7 +38,7 @@ $ vagrant plugin install vagrant-hostmanager
 Since the admin machine will need the Vagrant SSH key to log into the server machines, we need to add it to our local SSH agent:
 
 ```console
-$ ssh-add -K ~/.vagrant.d/insecure_private_key
+$ ssh-add -k ~/.vagrant.d/insecure_private_key
 ```
 
 ## Start the VMs
